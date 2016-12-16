@@ -1,0 +1,359 @@
+*{
+	margin:0;
+	padding:0;
+	line-height:1;
+	font-family:Microsoft Yahei;
+}
+ul, ol,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+img{
+	border:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+em, i{
+	font-style:normal;
+}
+.banner{
+	width: 1138px;
+	height: 98px;
+	margin:0 auto;
+	padding-left: 62px;
+}
+.banner span{
+	color: rgb(119,119,121);
+	font-size: 28px;
+	line-height: 98px;
+	float: left;
+}
+.banner em{
+	color: rgb(244,107,91);
+	font-size: 28px;
+	line-height: 98px;
+	float: left;
+}
+.banner a{
+	display: block;
+	padding: 14px;
+	float: left;
+	border-radius: 5px;
+	cursor: pointer;
+	color: rgb(119,119,121);
+}
+.banner a:hover{
+	background-color: rgb(247,123,111);
+}
+.bannera{
+	padding-left: 380px;
+	padding-top: 30px;
+}
+.banner input{
+	color: rgb(121,121,121);
+	width: 150px;
+	height: 22px;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 10px;
+	background: url(./images/2016-11-22_210533.png) no-repeat 130px;
+	outline: none;
+	border:1px solid #CCC;
+	margin-left: 10px;
+}
+.topnav{
+	width: 1138px;
+	margin:0 auto;
+	height: 118px;
+	padding-left: 62px;
+	background-color: rgb(71,82,104);
+}
+.topnav span{
+	color: white;
+	font-size: 22px;
+	line-height: 118px;
+	padding-right: 12px;
+	float: left;
+}
+.topnav em{
+	color: white;
+	font-size: 22px;
+	line-height: 118px;
+	float: left;
+}
+.topnava {
+	float: right;
+	padding-right: 72px;
+}
+.topnava a{
+	line-height: 118px;
+	color: rgb(244,107,91);
+	cursor: pointer;
+} 
+.topnava i{
+	color: white;padding: 0 5px;
+}
+.main{
+	width: 1200px;
+	margin:0 auto;
+	height: 820px;
+}
+.main h2{
+	text-align: center;
+	color: rgb(71,82,104);
+	padding-top: 86px;
+	font-size: 26px;
+}
+.main p{
+	text-align: center;
+	color: rgb(111,111,111);
+	padding-top: 16px;
+	padding-bottom: 80px;
+}
+.main ul{
+	padding-left: 60px;
+}
+.main ul li{
+	width: 252px;
+	height: 512px;
+	float: left;
+	margin-right: 30px;
+	border-radius: 6px;
+	position: relative;
+}
+.main ul li .li-one{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 512px;
+	background: rgb(238,238,238);
+}
+.main ul li:hover .li-one{
+	background: none;
+}
+.main ul li:hover .li-one h1{
+	color: white;
+}
+.main ul li:hover .li-one h5{
+	display: none;
+}
+.main ul li:hover .li-one a{
+	color: white;
+}
+.main ul li .li-one h1{
+	width: 252px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: rgb(111,111,111);
+}
+.main ul li .li-one h3{
+	width: 252px;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	font-size: 26px;
+	color: rgb(255,255,255);
+	background: rgb(119,119,119);
+}
+.main ul li .li-one h4{
+	width: 202px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: rgb(111,111,111);
+	border-bottom: 1px dotted rgb(111,111,111);
+	margin-left: 24px;
+	padding-top: 14px;
+}
+.main ul li .li-one a{
+	display: block;
+	width: 202px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: rgb(111,111,111);
+	border-bottom: 1px dotted rgb(111,111,111);
+	margin-left: 24px;
+}
+.main ul li .li-one h5{
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	width: 96px;
+	height: 40px;
+	border-radius: 6px;
+	background: rgb(172,172,172);
+	margin-left: 80px;
+	margin-top: 16px;
+}
+.cloneall{
+	position: absolute;
+	left: 0px;
+	top: -20px;
+	width: 252px;
+	height: 552px;
+	background: rgb(255,0,0);
+	border-radius: 6px;
+	transition:all 0.5s;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	z-index: 2;
+	display: none;
+}
+.main ul li:hover .cloneall{
+	display: block;
+}
+.clone-li{
+	position: absolute;
+	left: 0px;
+	top: -20px;
+	width: 252px;
+	height: 552px;
+	border-radius: 6px;
+	z-index: 3;
+	display: none;
+}
+.main ul li:hover .clone-li{
+	display: block;
+}
+.clone-li h1{
+	width: 252px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	z-index: 3}
+.clone-li h3{
+	width: 252px;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	font-size: 26px;
+	color: rgb(255,255,255);
+}
+.clone-li h4{
+	width: 202px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	border-bottom: 1px dotted rgb(111,111,111);
+	margin-left: 24px;
+	padding-top: 14px;
+}
+.clone-li a{
+	display: block;
+	width: 202px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	margin-left: 24px;
+	cursor: pointer;
+}
+.clone-li h5{
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	width: 96px;
+	height: 40px;
+	border-radius: 6px;
+	margin-left: 80px;
+	margin-top: 30px;
+	background: rgb(172,172,172);
+	cursor: pointer;
+}
+.bottomnav{
+	height: 246px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: rgb(71,82,104);
+	margin-top: 30px;
+	padding-top: 54px;
+}
+.bottomleft {
+	padding-left: 60px;
+	float: left;
+}
+.bottomleft h1{
+	font-size: 16px;
+	color: white;
+	padding-bottom: 10px;
+}
+.bottomleft  a{
+	display: block;
+	font-size: 12px;
+	color: white;
+	padding-top: 20px;
+}
+.bottomleft span{
+ 	display: block;
+	font-size: 12px;
+	color: white;
+	padding-top: 20px;
+	float: left;
+ }
+.bottomleft p{
+	float: left;
+	font-size: 12px;
+	color:rgb(243,125,108);
+	padding-top: 20px;
+}
+.bottommid{
+	float: left;
+	padding-left: 100px;
+}
+.bottommid h1{
+	font-size: 16px;
+	color: white;
+	padding-bottom: 10px;
+}
+.bottommid a{
+	float: left;
+	font-size: 12px;
+	color: white;
+	padding-top: 20px;
+}
+.bottommid span{
+	float: left;
+	font-size: 12px;
+	color: white;
+	padding-top: 20px;
+	padding-left: 56px;
+}
+.bottomright{
+	float: right;
+	width: 240px;
+	padding-right: 90px;
+}
+.bottomright h1{
+	font-size: 16px;
+	color: white;
+	padding-bottom: 16px;
+	display: block;
+}
+.bottomright ul{
+	width: 240px;
+}
+.bottomright li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(red,cyan,blue);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='red',Colorstr='cyan',endColorstr='blue');
+	margin-top: 10px;
+	margin-right: 10px;
+}
